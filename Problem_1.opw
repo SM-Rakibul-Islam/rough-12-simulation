@@ -1,0 +1,16 @@
+[RESOURCES]
+Strawberry booth
+Chocolate booth
+[VARIABLES]
+chocolate.VATime
+Strawberry.VATime
+Dispose.NumberOut
+Strawberry.NumberOut
+chocolate.NumberOut
+Strawberry.NumberIn
+Cold Coffee shop.NumberOut
+chocolate.NumberIn
+Decision.NumberOut True
+chocolate.WaitTime
+Strawberry.WaitTime
+Decision.NumberOut False

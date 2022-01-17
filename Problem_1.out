@@ -1,0 +1,71 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Cold Coffee shop                                            Run execution date : 4/11/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 4/11/2021
+
+Replication ended at time      : 480.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Strawberry.WaitTimePerEntity                .00000     (Insuf)    .00000     .00000          6    
+chocolate.VATimePerEntity                   .02489     (Insuf)    .01862     .03291         10    
+chocolate.WaitTimePerEntity                 .00000     (Insuf)    .00000     .00000         10    
+Strawberry.VATimePerEntity                  1.5945     (Insuf)    1.2458     1.8724          6    
+Strawberry.TotalTimePerEntity               1.5945     (Insuf)    1.2458     1.8724          6    
+chocolate.TotalTimePerEntity                .02489     (Insuf)    .01862     .03291         10    
+Customer.VATime                             .61350     (Insuf)    .01862     1.8724         16    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         16    
+Customer.WaitTime                           .00000     (Insuf)    .00000     .00000         16    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000         16    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000         16    
+Customer.TotalTime                          .61350     (Insuf)    .01862     1.8724         16    
+Strawberry.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          6    
+chocolate.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         10    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                .02045     (Insuf)    .00000     1.0000     .00000    
+Strawberry booth.NumberBusy                 .01993     (Insuf)    .00000     1.0000     .00000    
+Strawberry booth.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Strawberry booth.Utilization                .01993     (Insuf)    .00000     1.0000     .00000    
+Chocolate booth.NumberBusy                  5.1846E-04 (Insuf)    .00000     1.0000     .00000    
+Chocolate booth.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Chocolate booth.Utilization                 5.1846E-04 (Insuf)    .00000     1.0000     .00000    
+Strawberry.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+chocolate.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+chocolate Accum VA Time                     .24886    
+Strawberry Accum VA Time                    9.5671    
+Strawberry Number Out                       6.0000    
+chocolate Number Out                        10.000    
+Strawberry Number In                        6.0000    
+chocolate Number In                         10.000    
+chocolate Accum Wait Time                   .00000    
+Strawberry Accum Wait Time                  .00000    
+Customer.NumberIn                           16.000    
+Customer.NumberOut                          16.000    
+Strawberry booth.NumberSeized               6.0000    
+Strawberry booth.ScheduledUtilization       .01993    
+Chocolate booth.NumberSeized                10.000    
+Chocolate booth.ScheduledUtilization        5.1846E-04
+System.NumberOut                            16.000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.
